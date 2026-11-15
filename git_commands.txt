@@ -1,0 +1,35 @@
+git init -b main
+Initializes the Git repository with main as the branch.
+
+git add .
+Stages all unignored files for the next commit.
+
+git commit -m "Initial commit: Add HTML pages"
+Creates a commit recording the initial project state.
+
+git status
+gives a live snapshot of what is happening in the project folder
+
+git branch feature
+Creates a new branch named feature.
+
+git switch feature
+Switches the working branch to feature.
+
+git merge feature
+Merges the feature branch into the current branch.
+
+git log --oneline --graph --all --decorate
+Displays commit history with branch information.
+
+git revert HEAD
+Creates a new commit that reverses the previous commit.
+
+git remote add origin <repository-url>
+Connects the local repository to GitHub.
+
+git push -u origin main
+Pushes the main branch to GitHub and sets its upstream.
+
+git push origin feature
+uploads the work from a local branch named feature to the online repository
